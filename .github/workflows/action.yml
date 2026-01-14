@@ -1,6 +1,7 @@
 name: LottoBot
 
 on:
+    workflow_dispatch:   # 수동 트리거 추가 (UI/gh/API로 실행 가능)
     schedule:
         - cron: "55 23 * * 5" # UST 기준의 크론. UST 23:55 는 KST 08:55
 
